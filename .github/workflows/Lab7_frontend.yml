@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkout@v3
+      
       # Akcja: "checkout" - sprawdza, czy workflow ma poprawny dostęp do repo
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       #Skonfigurowanie dockera + buildx
       - name: Buildx set-up
